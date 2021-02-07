@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.79.0-ext-ubuntu-ci
+FROM klakegg/hugo:0.80.0-ext-ubuntu-ci
 
 RUN apt-get update \
   && apt-get install -y curl \
