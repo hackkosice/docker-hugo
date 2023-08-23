@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.104.3-ext-ubuntu-ci
+FROM floryn90/hugo:0.117.0-ext-ubuntu-ci
 
 RUN apt-get update \
   && apt-get install -y curl \
